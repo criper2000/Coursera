@@ -12,37 +12,41 @@ h1 {
 
 
 #box {
-  background-color: gray;
-  border: 1px solid black;
-
+    background-color: gray;
+    
+    margin-bottom: 5px;
+    border: 1px solid black;
 }
 
 #label1 {
   background-color: #5F9EA0;
   float: right;
+  font-weight: bold;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   text-align: center;
-  width:20%;
+  width:30%;
   }
 
 #label2{
   background-color: #A52A2A;
    float: right;
+    font-weight: bold;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
 
   text-align: center;
-  width: 20%;
+  width: 30%;
 }
 
 #label3{
   background-color: #DEB887;
    float: right;
+    font-weight: bold;
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   text-align: center;
-  width: 20%;
+  width: 30%;
 }
 #content {
   text-align: left;
