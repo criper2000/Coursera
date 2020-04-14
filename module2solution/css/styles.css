@@ -55,7 +55,8 @@ h1 {
 
 div {
   font-family: Helvetica, sans-serif;
-
+display: block;
+margin: 4px;
 }
 
 /* Simple Responsive Framework. */
