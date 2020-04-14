@@ -13,7 +13,7 @@ var speakWord = "Hello";
 // STEP 4: Rewrite the 'speak' function such that it is attached to the
 // helloSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
-helloSpeaker.speak = function() {
+helloSpeaker.speak = function(name) {
   console.log(speakWord + " " + name);
 }
 
@@ -21,5 +21,5 @@ helloSpeaker.speak = function() {
 // 'helloSpeaker' on the global scope as well.
 // See Lecture 52, part 2
 // (Note, Step 6 will be done in the SpeakGoodBye.js file.)
-window.helloSpeaker = helloSpeaker.speak;
+window.helloSpeaker = helloSpeaker;
 })(window);
